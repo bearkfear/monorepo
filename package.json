@@ -1,0 +1,18 @@
+{
+  "name": "name-of-repo",
+  "version": "1.0.0",
+  "description": "Nome do repositorio",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "new-version": "lerna version --conventional-commits --yes"
+  },
+  "repository": "",
+  "author": "Enrico da Silva <camponogara5@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
